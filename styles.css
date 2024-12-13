@@ -1,1 +1,58 @@
+/* Center the form on the page with a background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/tumblr-inline-o29dnbbdq41rtb73a-500-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
 
+.form {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.button-confirm {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-confirm:hover {
+  background-color: #555;
+}
